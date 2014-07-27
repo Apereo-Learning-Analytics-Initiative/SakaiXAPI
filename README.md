@@ -5,9 +5,11 @@ This is mostly a pointer to the source code in the Sakai codebase that handles X
 
 Files
 -----
-*LearningResourceStoreService.java* - The API which represents the XAPI LRS data objects and operations (statement transmit)
-*LearningResourceStoreProvider.java* - A pluggable API to allow multiple LRS connections (implement this API for each type of LRS we are connecting to)
-*BaseLearningResourceStoreService.java* - Sakai specific XAPI integration code which extracts the data
+**LearningResourceStoreService.java** - The API which represents the XAPI LRS data objects and operations (statement transmit)
+
+**LearningResourceStoreProvider.java** - A pluggable API to allow multiple LRS connections (implement this API for each type of LRS we are connecting to)
+
+**BaseLearningResourceStoreService.java** - Sakai specific XAPI integration code which extracts the data
 
 Main code location
 ------------------
